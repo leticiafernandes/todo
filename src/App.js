@@ -1,16 +1,15 @@
+import React from 'react';
+import TodoItem from './TodoItem'
+
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <input type="checkbox" />
-      <p>Texto para a checkbox</p>
-
-      <input type="checkbox" />
-      <p>Texto para a checkbox 2</p>
-      
-      <input type="checkbox" />
-      <p>Texto para a checkbox 3</p>
+    <div className='todo-list'>
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
